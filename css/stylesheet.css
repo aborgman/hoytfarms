@@ -1,0 +1,257 @@
+.bigbox {
+    width: 100%;
+    background-color: #FFF09F/*#E4CB4A*/;
+}
+
+.container {
+    background-color: #FFF09F;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.bignav {
+    width: 100%;
+    background-color: #E4CB4A;
+}
+.navbar {
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #5F951A/*#9D7F08*/;
+    width: 1024px;
+    list-style-type: none;
+    margin: auto;
+    position: fixed;
+    top: 0;
+}
+
+.navbar #logo {
+    width: 125px;
+    height: 74px;
+    vertical-align: middle;
+}
+
+.navbar li {
+    display: inline;
+    /*not needed anymore, background-color: #9D7F08;*/
+    padding: 30px;
+}
+
+.navbar a:link {
+    text-decoration: none;
+    color: #FFF09F;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 7px 18px;
+}
+
+.navbar a:visited{ 
+    text-decoration:none; 
+    color: #FFF09F;
+    
+}
+
+ /*.logo {
+    moved to html to link background-image: url('../images/farm_logo.jpg');*/
+    /*float: left;
+}*/
+
+.main {
+    clear: both;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('../images/farm_hero.png');
+    background-size: cover;
+    width: 1024px;
+    height: 650px;
+    margin: auto;
+}
+
+h2 {
+    color: #9D7F08;
+    font-size: 6em;
+    letter-spacing: 3px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p > a {
+    text-decoration: none;
+    color: #3A4F04;
+    font-style: italic;
+}
+
+.credit{
+    font-style: italic;
+    font-size: .8em;
+}
+
+.pizzalink {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background-image: url("../images/chicken_brown.jpg");
+}
+
+.pizzalink a:link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.text {
+    width: 1024px;
+    height: 100px;
+    /*background-color: #967550; too dark to use*/
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    line-height: 170%;
+    color: #5F951A;
+}
+
+.imagegallery {
+    margin: auto;
+    text-align: center;
+}
+
+.onions {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/onions_3.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.peaches {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/peaches.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.lettuce {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/lettuce.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.chicken {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/egg_basket_2.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    /*position: relative;*/
+}
+
+.pig {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/pig_sleeping_2.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.goat {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/goats_kids_2.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.farmer_1 {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/farmer_2.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.farmer_2 {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/farmer_1.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.farmer_3 {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/farmer_3.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.about {
+    text-align: center;
+    background-color: #447604;
+    width: 1024px;
+    height: 150px;
+    margin: auto;
+}
+
+.thefield {
+    text-align: center;
+    background-image: url("../images/apple_background.jpg");
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.thebarn {
+    text-align: center;
+    background-image: url("../images/chicken_brown.jpg");
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.thepeople {
+    text-align: center;
+    background-image: url("../images/farmer_hay.jpg");
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
